@@ -1,6 +1,4 @@
 # 6.1 Write code to Add and remove elements in a list
-# Dynamic List Operations
-
 # Part 1: Modify a list
 user_input = input("Enter list items separated by space (e.g., apple banana): ")
 my_list = user_input.split()
@@ -22,9 +20,6 @@ print("-" * 20)
 
 # Part 2: Remove duplicates
 nums_input = input("Enter numbers with duplicates separated by space: ")
-# Convert to strings first, slicing/uniqueness works the same. 
-# But to match original 'nums' integer feel, we can try to keep them as is or just treat as strings.
-# The prompt is generic "list operations", strings are safer if user types non-numbers.
 nums = nums_input.split() 
 unique = list(set(nums))
 print("Unique list:", unique)
